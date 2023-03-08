@@ -92,13 +92,24 @@ body {
  #click{
  text-align:center;
  }
-
- #img1{
- display:block;
- margin-left:auto;
- margin-right:auto;
- width:50%
+  #img1{
+ 	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+ 
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
-
-	
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
